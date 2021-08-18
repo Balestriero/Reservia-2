@@ -20,7 +20,7 @@ html {
 body {
   width: 100%;
   min-width: 320px;
-  max-width: 1440px;
+  max-width: 1340px;
   font-family: "Raleway", sans-serif;
   margin: 0 auto;
 }
@@ -61,7 +61,7 @@ header {
 
 nav {
   width: 95%;
-  max-width: 1440;
+  max-width: 1340px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -240,8 +240,9 @@ article {
   cursor: pointer;
 }
 
-#hebergementsligne1 .blocsgauche, #hebergementsligne2 .blocsgauche {
-  background-color:white;
+#hebergementsligne1 .blocsgauche,
+#hebergementsligne2 .blocsgauche {
+  background-color: white;
   padding: 10px;
   border-radius: 10px;
   box-shadow: 0px 5px 10px 5px #00000038;
@@ -249,7 +250,7 @@ article {
 
 #hebergements {
   margin-top: 25px;
-  width: 1000px;
+  width: 900px;
   background-color: var(--color3);
   padding-top: 20px;
   padding-bottom: 10px;
@@ -290,7 +291,7 @@ li em {
 #hebergementsligne1 img,
 #hebergementsligne2 img {
   height: 120px;
-  width: 270px;
+  width: 250px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
@@ -319,7 +320,7 @@ li em {
 
 .blocsdroite {
   display: flex;
-  }
+}
 
 #graph {
   display: flex;
@@ -393,7 +394,6 @@ section {
   position: relative;
 }
 
-
 #activitesamarseille h2 {
   position: absolute;
   top: -30px;
@@ -401,7 +401,7 @@ section {
 }
 
 #activites ul img {
-  width: 310px;
+  width: 300px;
   height: 313px;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
@@ -416,7 +416,6 @@ section {
 }
 
 #activites ul {
-  font-size: bold;
   margin-bottom: 30px;
   box-shadow: 0px 5px 10px 5px #00000038;
   border-radius: 15px;
@@ -465,7 +464,7 @@ footer a {
 
 /* Partie responsive */
 
-@media screen and (max-width: 1389px) {
+/* @media screen and (max-width: 1389px) {
   #hebergements {
     margin: 20px auto;
   }
@@ -473,7 +472,7 @@ footer a {
   #populaires {
     margin: 20px auto;
   }
-}
+} */
 
 @media screen and (max-width: 1024px) {
   #texte {
@@ -514,8 +513,8 @@ footer a {
   }
 
   .blocsgauche {
-  margin-bottom: 15px;
-}
+    margin-bottom: 15px;
+  }
 
   #hebergements h2 {
     margin: 0;
@@ -602,12 +601,13 @@ footer a {
     padding: 0;
   }
 
-  .bandeau, .bandeau nav {
+  .bandeau,
+  .bandeau nav {
     width: 100%;
   }
 
   nav #liensheader {
-  margin: 0 auto;
+    margin: 0 auto;
   }
 
   .bandeau {
@@ -642,7 +642,7 @@ footer a {
     margin-top: 20px;
   }
 
-   nav a:hover {
+  nav a:hover {
     border-top: none;
     color: black;
     font-weight: normal;

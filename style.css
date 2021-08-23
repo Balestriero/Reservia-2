@@ -635,12 +635,15 @@ footer a {
 
   button.loupe {
     display: block;
-
+    position: relative;
+    left: -20px;
   }
 
   #recherche {
-    border-right: 0px solid var(--color3);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
   }
+  
   .bandeau input {
     padding-right: 10%;
     margin: 0;
